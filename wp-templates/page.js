@@ -46,6 +46,7 @@ export default function Component(props) {
       <Main>
         <>
           <EntryHeader title={title} image={featuredImage?.node} />
+          <h1>YO HELLO WORLD</h1>
           <div className="container">
             <ContentWrapper content={content} />
           </div>
